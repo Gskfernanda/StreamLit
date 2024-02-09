@@ -63,7 +63,7 @@ with st.expander(
     st.write(readme["app"]["app_intro"])
     st.write("")
 st.write("")
-st.sidebar.image(load_image("logoretail.png"), use_column_width=True)
+st.sidebar.image(load_image("logoretail.jpeg"), use_column_width=True)
 display_links(readme["links"]["repo"], readme["links"]["article"])
 
 
